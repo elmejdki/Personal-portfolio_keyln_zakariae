@@ -31,7 +31,7 @@ body {
     padding-top: 10px;
 }
 .navlinks > a {
-color: white;
+  color: white;
   text-decoration: none;
   padding: 10px 15px;
 }
@@ -60,7 +60,7 @@ color: white;
 #projects {
   width: 100%;
   text-align: center;
-
+  padding: 100px 0px;
 }
 .section-title {
   font-size: 26px;
@@ -71,6 +71,8 @@ color: white;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
   padding: 20px;
+  width: 1100px;
+  margin: 0 auto;
 }
 .card {
   width: 350px;
@@ -82,9 +84,42 @@ color: white;
   padding: 10px 15px;
   border-radius: 15px;
   color: #fff;
+  margin-top: 30px;
+  display: inline-block;
+  width: 100px;
+  box-shadow: 2px 5px 20px 10px rgba(0,0,0, .2);
   text-decoration: none;
 }
+
 img {
   width: 350px;
   border-radius: 10px 10px 0px 0px;
+}
+
+#socials {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    color: white;
+    text-align: center;
+    flex-direction: column;
+}
+
+#socials .title h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+#socials .social_links a {
+    text-decoration: none;
+    color: white;
+    width: 400px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.fab, .fas {
+    font-size: 30px;
 }
