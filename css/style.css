@@ -56,3 +56,35 @@ color: white;
     color: red;
     margin-top: -30px; 
 }
+/* Projects Section */
+#projects {
+  width: 100%;
+  text-align: center;
+
+}
+.section-title {
+  font-size: 26px;
+  text-decoration: underline;
+}
+#projects > .myprojects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  padding: 20px;
+}
+.card {
+  width: 350px;
+  box-shadow: 4px 10px 20px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.project-tile {
+  background: slateblue;
+  padding: 10px 15px;
+  border-radius: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+img {
+  width: 350px;
+  border-radius: 10px 10px 0px 0px;
+}
