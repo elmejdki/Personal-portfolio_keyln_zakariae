@@ -3,26 +3,56 @@
     background-color: lightblue;
   }
 }
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  width: 100%;
+  font-family: 'Merriweather', serif;
 }
+
 #navbar {
   display: flex;
   justify-content: space-between;
-  background: salmon;
+  background: linear-gradient(62deg, #e43838 0%, #b30000 100%);
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
 }
+
+#navbar h1 {
+    padding: 0px 30px;
+    color: white;
+}
+
+.navlinks {
+    padding-top: 10px;
+}
 .navlinks > a {
-  color: #000;
+color: white;
   text-decoration: none;
   padding: 10px 15px;
 }
 
 #welcome-section{
     height: 100vh;
+    background: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+#welcome-section h1 {
+    font-size: 42px;
+}
+
+#welcome-section p {
+    font-size: 32px;
+    color: red;
+    margin-top: -30px; 
 }
