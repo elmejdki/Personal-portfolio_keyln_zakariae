@@ -3,6 +3,25 @@
     background-color: lightblue;
   }
 }
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  background: salmon;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.navlinks > a {
+  color: #000;
+  text-decoration: none;
+  padding: 10px 15px;
+}
 
 #welcome-section{
     height: 100vh;
